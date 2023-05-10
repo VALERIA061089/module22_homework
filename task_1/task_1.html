@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Задание 1</title>
+</head>
+<body>
+    <h1 class="title">Задание 1</h1>
+    <p class="text">Изобразить с помощью элементов SVG флаги пяти стран: Россия, Франция, Финляндия, Швейцария, Япония.
+                    Каждый SVG-элемент с флагом должен иметь размер 180 на 120 пикселей.</p>
+    <div class="flags">
+        <div class="flag_1">
+            <h2 class="flag_russia">Флаг России</h2>
+            <div class="russia">            
+                <svg height="120" width="180">
+                    <rect x="0" y="0" width="180" height="40" style="fill: white;"/>
+                    <rect x="0" y="40" width="180" height="40" style="fill: blue;"/>
+                    <rect x="0" y="80" width="180" height="40" style="fill: red;"/>
+                </svg>
+            </div>
+        </div>
+        <div class="flag_1">
+            <h2 class="flag_france">Флаг Франции</h2>
+            <div class="france">            
+                <svg height="120" width="180">
+                    <rect x="0" y="0" width="60" height="120" style="fill: blue;"/>
+                    <rect x="60" y="0" width="60" height="120" style="fill: white;"/>
+                    <rect x="120" y="0" width="60" height="120" style="fill: red;"/>
+                </svg>
+            </div>
+        </div>
+        <div class="flag_1">
+            <h2 class="flag_finland">Флаг Финляндии</h2>
+            <div class="finland">            
+                <svg height="120" width="180">
+                    <rect x="0" y="0"  width="180" height="120" style="fill:white; z-index:-1;"></rect>
+                    <rect x="50" width="30" height="120" style="fill:#3a75c4;"></rect>
+                    <rect y="40" width="180" height="30" style="fill:#3a75c4;"></rect>
+                </svg>
+            </div>
+        </div>
+        <div class="flag_1">
+            <h2 class="flag_switzerland">Флаг Швейцарии</h2>
+            <div class="switzerland">            
+                <svg height="120" width="180">
+                    <rect x="0" y="0"  width="180" height="120" style="fill:red; z-index:-1;"></rect>
+                    <rect x="75" y="25" width="30" height="70" style="fill:white;"></rect>
+                    <rect x="50" y="45" width="80" height="30" style="fill:white;"></rect>
+                </svg>
+            </div>
+        </div>
+        <div class="flag_1">
+            <h2 class="flag_japan">Флаг Японии</h2>
+            <div class="japan">            
+                <svg height="120" width="180">
+                    <rect rect x="0" y="0" width="180" height="120" style="fill: white; z-index:-1;"/>
+                    <circle cy="60" cx="90" r="40" style="fill:red;"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
